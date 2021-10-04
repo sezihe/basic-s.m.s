@@ -363,7 +363,7 @@ public class Main {
         // basically gets the Teacher with the least amount of Students guiding
 
         List<Teacher> teachers = TeacherController.getAllTeachers();
-        int studentsGuidingCount = 0;
+        int studentsGuidingCount = teachers.get(0).getStudentsGuiding().size();
         Teacher selectedTeacher = null;
 
         for(Teacher teacher : teachers) {
