@@ -1,7 +1,6 @@
 # Basic School Management System
-### [Encentral Solutions](https://www.encentralsolutions.com/) Intern Assessment
 
-Basic School Management System for Encentral Solutions Internship
+Basic School Management System API
 
 ## Technologies Used
 - Maven (Project Management)
